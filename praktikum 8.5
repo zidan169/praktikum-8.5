@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style 8.5.css">
+</head>
+<body>
+    <header>Header</header>
+    <div id="main">
+      <aside>Aside</aside>
+      <article>
+        <h2>
+            ARTICLE
+        </h2>
+        <div id="foto">
+            <img src="ioi.jpeg" alt="">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+        </div>
+      </article>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
+
+
+body{
+    background-color: red;
+    padding: 0%;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+header, footer{
+    background-color: salmon;
+    height: 10vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: yellow;
+    height: 60vh;
+    flex: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px  ;
+}
+#main aside{
+    flex: 1;
+    background-color:hotpink;
+    height: 60vh;
+    flex: 0 0 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    text-align: center;
+    margin-top: 55px;
+    
+}
+#foto img{
+    text-align: center;
+    margin: 15px;
+}
+img{
+    height: 40vh;
+    flex: 1;
+    margin: 10px;
+}
